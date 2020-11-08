@@ -17,7 +17,7 @@ public class ClientTCP {
         int n ;
 
       do {
-          System.out.println("N doit sup ou egale a  0 !");
+          System.out.println("N doit etre sup ou egale a  0 !");
           String str = scanner.nextLine();
           n = Integer.parseInt(str);
       }while (n<0);
